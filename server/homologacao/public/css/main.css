@@ -1,0 +1,129 @@
+/*
+ * Project: name of project
+ * Author : enterprise [developers]
+ */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+}
+hr {
+    background: #333;
+    display: block;
+    width: auto;
+    height: 1px;
+    margin: 10px 0px;
+    padding: 0px;
+    clear: both;
+    border: none;
+}
+
+/* >> GENERIC */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.transition {
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+.sprite {
+    background-image: url(../img/sprite/sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-color: transparent;
+}
+.clear {
+    display: block;
+    clear: both;
+}
+.buttons {
+    
+}
+.buttons:hover {
+    
+}
+.buttons .icon {
+    
+}
+.buttons .label {
+    
+}
+
+.wrap-general {
+    display: block;
+    width: 940px;
+    height: auto;
+    padding: 0px;
+    margin: 0px auto;
+    position: relative;
+    
+}
+/* << GENERIC */
+
+html,
+body {
+    
+}
+    /* STRUCTURE */
+    #wrap {
+        
+    }
+        /* HEADER */
+        #header {
+            
+        }
+        
+        /* CONTENT */
+        #content {
+            
+        }
+        
+        /* FOOTER */
+        #footer {
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

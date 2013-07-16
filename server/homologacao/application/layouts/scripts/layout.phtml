@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<?=$this->partial('helpers/metas.phtml');?>
+		<?=$this->partial('helpers/head.phtml');?>
+		<title><?=(!empty($this->title)?$this->title:'Name Project');?></title>
+    </head>
+    <body class="<?=$this->current;?>">
+		<div id="wrap" class="">
+			<div id="header">
+				<?=$this->partial('helpers/html/header.phtml', array('current' => $this->current));?>
+			</div>
+			<div id="content" class="<?=$this->current;?>">
+				<?=$this->layout()->content;?>
+			</div>
+			<div id="footer">
+				<?=$this->partial('helpers/html/footer.phtml');?>
+			</div>
+		</div>
+    </body>
+</html>
